@@ -24,16 +24,14 @@ for (let i = 0; i <= 10; i++) {
 
 
 
-let n = 10;
-let arr = [];
+let n = 11;
 
 for (let i = 0; i < n; i++) {
-    arr.push(i * 7);
+    console.log(`${i} * 7 = ${i * 7}`);
     // if (i >= n){
     //     break;
     // } цикл сам завершить якщо i >= n
 }
-console.table(arr);
 
 
 
