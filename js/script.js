@@ -19,19 +19,21 @@ for (let i = 0; i <= max; i++) {
 
 
 for (let i = 0; i <= 10; i++) {
-    console.log(i * 7);
+    console.table(i * 7);
 }
 
 
 
 let n = 10;
+let arr = [];
 
 for (let i = 0; i < n; i++) {
-    console.log(i);
+    arr.push(i * 7);
     // if (i >= n){
     //     break;
     // } цикл сам завершить якщо i >= n
 }
+console.table(arr);
 
 
 
